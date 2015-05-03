@@ -34,7 +34,9 @@ pow = (foldl' (*) 1 .) . replicate . fromIntegral
 nums :: M.Map String Integer
 nums = M.fromList $ zip
         ["zero", "one", "two", "three", "four", "five", "six",
-        "seven", "eight", "nine", "ten", "eleven", "twelve"]
+        "seven", "eight", "nine", "ten", "eleven", "twelve",
+        "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen",
+        "nineteen", "twenty"]
         [0 ..]
 
 answer :: String -> Maybe Integer
